@@ -318,9 +318,9 @@ function parseString(rawData) {
 }
 
 var types = {
-    'TEMP':      {name: 'Temperature',        role: 'value.temperature',        unit: 'C°',    type: 'number'},
-    'WINCHL':    {name: 'Chill temperature',  role: 'value.temperature.chill',  unit: 'C°',    type: 'number'},
-    'WINTMP':    {name: 'Wind temperature',   role: 'value.temperature.wind',   unit: 'C°',    type: 'number'},
+    'TEMP':      {name: 'Temperature',        role: 'value.temperature',        unit: '°C',    type: 'number'},
+    'WINCHL':    {name: 'Chill temperature',  role: 'value.temperature.chill',  unit: '°C',    type: 'number'},
+    'WINTMP':    {name: 'Wind temperature',   role: 'value.temperature.wind',   unit: '°C',    type: 'number'},
     'HUM':       {name: 'Humidity',           role: 'value.humidity',           unit: '%',     type: 'number', min: 0, max: 100},
     'WINSP':     {name: 'Wind speed',         role: 'value.wind.speed',         unit: 'km/h',  type: 'number'},
     'AWINSP':    {name: 'Average wind speed', role: 'value.wind.speed.average', unit: 'km/h',  type: 'number'},
